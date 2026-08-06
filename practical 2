@@ -58,7 +58,7 @@ int main()
     cout << "Enter your choice: ";
     cin >> choice;
 
-    int result = -1;
+    int result;
 
     switch (choice)
     {
@@ -101,7 +101,7 @@ int main()
     }
 
     default:
-        cout << "Invalid choice!";
+        cout << "Invalid Choice!";
     }
 
     return 0;
